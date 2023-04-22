@@ -1,0 +1,214 @@
+body {
+    margin: 30px;
+    background-color:white;
+   }
+
+
+img {
+	width: 200px;
+	height: 200px;
+	object-fit: scale-down;
+}
+
+h1{
+	font-family:'Courier New', Courier, monospace;
+	color:rgba(68, 32, 2, 0.76);
+	font-size:75px;
+	font-weight: normal;
+	line-height: 64 px;
+	margin: 10px 0 20px;
+	padding: 20px 30px;
+	text-align:center;
+}
+
+
+a {
+	color: black;
+	display: block;
+	margin-left: auto;
+   	margin-right: auto;
+	margin-bottom: 12px;
+	text-align:center;
+   	line-height: 25pt;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: large;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.catalog{
+	width: 70%;
+	float: left;
+	margin-left: 10px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	padding-right: 222px;
+	padding-left: 222px;
+}
+
+.image{
+	float:left;
+	width:20%;
+	margin-left: auto;
+   	 margin-right: auto;
+	min-height: 120px;
+    	max-height: auto;
+	position:relative;
+	display: block;
+	text-align: center;
+}
+
+
+div {
+	position: relative;
+	display: inline-block;
+	width: 1300px;
+	max-width: none;
+}
+
+button[class="button"] {
+	text-align: center;
+	text-decoration: none;
+	border:groove;
+	background-color: rgba(7, 96, 148);
+	margin-left: 0.5px;
+	color: black;
+	padding: 10px 35px;
+	font-size: 21.5px;
+} 
+
+
+input[name="nickname"] {
+	float:left;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+	background-color: white;
+	border: groove;
+    	padding: 12px 16px;
+	margin-left: 60px;
+}
+
+input[name="title" ] {
+	float:left;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+	background-color: white;
+	border: groove;
+    padding: 12px 16px;
+	margin-left: 2px;
+}
+
+input[id="Ncancel"] {
+	float:left;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+	background-color: white;
+	border: groove;
+    padding: 12px 16px;
+	margin-left: 250px;
+} 
+
+input[value="Must-Read Books"] {
+	float: left;
+	border: groove;
+	background-color: rgba(7, 96, 148);
+	font-family:'Times New Roman', Times, serif;
+	font-size: medium;
+	padding: 12px 25px;
+	color: black;
+	margin-left: 450px;
+}
+
+input[value="Read Book"] {
+	float: left;
+	border: groove;
+	background-color: rgba(7, 96, 148);
+	font-family:'Times New Roman', Times, serif;
+	font-size: medium;
+	padding: 12px 30px;
+	color: black;
+	margin-left: 40px;
+}
+
+input {
+	border: groove;
+	background-color: rgba(7, 96, 148);
+	font-family:'Times New Roman', Times, serif;
+	font-size: medium;
+	padding: 10px 30px;
+	color: black;
+}
+
+
+button[type="submit"] {
+	color: black;
+	border: groove;
+	background-color: rgba(7, 96, 148);
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+	padding: 12px 8px;
+	position: absolute;
+	margin-left: 2px;
+}
+
+
+.pagination{
+	text-align: center;
+	width: 100%;
+	float: left;
+	padding:15px;
+}
+
+.pagination div{
+	position: relative;
+	display:inline-table;
+	width: 170px;
+	max-width: none;
+	background-color: white;
+}
+
+.previousPage {
+ color:black;
+ font-size:14px;
+ padding:8px 16px;
+ cursor: pointer;
+ text-decoration: dashed;
+ border:1px solid black;
+}
+
+.previousPage.deactivate {
+	color:darkgray;
+	border-color: black;
+	pointer-events: none;
+}
+
+.nextPage{
+	color:black;
+	font-size:14px;
+	padding:8px 16px;
+	cursor: pointer;
+	text-decoration:dashed;
+	border:1px solid black;
+   }
+
+.nextPage.deactivate {
+	color:darkgray;
+	border-color: black;
+	pointer-events: none;
+}
+
+.image.hideImages{
+	display: none;
+}
+
+
+h2 {
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+  	font-size:20px;
+	text-align: justify;
+	padding: 10px;
+	text-align: left;
+}
+
+
