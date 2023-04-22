@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virginia Woolf</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+<br></br>
+
+<a href="../index.php"> 
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+    <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+</svg>
+</a>
+
+
+
+
+<h1>Virginia Woolf</h1>
+<br></br>
+
+<div class="float-container">
+
+    <div class="float-child-1">
+    
+    <img src="images/VirginiaWoolf.jpg" alt="An image of VirginiaWoolf">
+<h2>Biography</h2>
+    <p>
+    <br>
+    <a href="https://en.wikipedia.org/wiki/Virginia_Woolf">Wikipedia</a>
+    <br>
+    Adeline Virginia Woolf (25 January 1882 - 28 March 1941) was an English writer, considered one of the most important modernist 20th-century authors and a pioneer in the use of stream of consciousness as a narrative device.
+
+Woolf was born into an affluent household in South Kensington, London, the seventh child of Julia Prinsep Jackson and Leslie Stephen in a blended family of eight which included the modernist painter Vanessa Bell. She was home-schooled in English
+ classics and Victorian literature from a young age. From 1897 to 1901, she attended the Ladies' Department of King's College London, where she studied classics and history and came into contact with early reformers of women's higher education and the women's rights movement.
+
+Encouraged by her father, Woolf began writing professionally in 1900. After her father's death in 1904, the Stephen family moved from Kensington to the more bohemian Bloomsbury, 
+where, in conjunction with the brothers' intellectual friends, they formed the artistic and literary Bloomsbury Group. In 1912, she married Leonard Woolf, and in 1917, the couple founded 
+the Hogarth Press, which published much of her work. They rented a home in Sussex and moved there permanently in 1940. Woolf had romantic relationships with women, including Vita 
+Sackville-West, who also published her books through Hogarth Press. Both women's literature became 
+inspired by their relationship, which lasted until Woolf's death.
+During the inter-war period, Woolf was an important part of London's literary and artistic society. In 1915, she had published her first novel, The Voyage Out, through her half-brother's 
+publishing house, Gerald Duckworth and Company. Her best-known works include the novels Mrs Dalloway (1925), To the Lighthouse (1927) and Orlando (1928). She is also known for her essays,
+ including A Room of One's Own (1929). Woolf became one of the central subjects of the 1970s movement of feminist criticism and her works have since attracted much attention and widespread
+  commentary for "inspiring feminism". Her works have been translated into more than 50 languages. A large body of literature is dedicated to her life and work, and she has been the 
+  subject of plays, novels and films. Woolf is commemorated today by statues, societies dedicated to her work and a building at the University of London.
+Throughout her life, Woolf was troubled by mental illness. She was institutionalised several times and attempted suicide at least twice. According to Dalsimer (2004) her 
+illness was characterised by symptoms that today would be diagnosed as bipolar disorder, for which there was no effective intervention during her lifetime. In 1941, at age 59, Woolf 
+died by drowning herself in the River Ouse at Lewes.
+</p>
+<br></br>
+    </div>
+<div class="float-child-2">   
+<h2>The Works of Virginia Woolf</h2>
+   <br></br>
+   <br></br>
+
+   <table>
+        <tr><td>
+        <?php 
+        $title1 = "Night and Day";
+        $title2 = "To the Lighthouse";
+        $title3 = "Mrs Dalloways Party";
+        $title4 = "The Complete Shorter Fiction";
+        $title5 = "The Death of the Moth";
+
+        echo $title1 ?>
+        <img src="books/NightAndDay.jpg" alt="An image of a book">
+        <td>
+        <?php  echo $title2 ?>
+        <img src="books/ToTheLighthouse.jpg" alt="An image of a book">
+        </td></tr>
+       
+        <tr><td><?php  echo $title3 ?>    
+        <img src="books/MrsDallowaysParty.jpg" alt="An image of a book">
+       
+        <td>
+       <?php  echo $title4 ?>
+        <img src="books/TheCompleteShorterFiction.jpg" alt="An image of a book">
+        </td></tr>
+        
+        <tr><td><?php  echo $title5 ?>
+        <img src="books/TheDeathOfTheMoth.jpg" alt="An image of a book">
+        </td></tr>
+        </tr>
+    </table>
+
+<br></br>
+<br></br>
+<br></br>
+
+
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChinuaAchebe</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+<br></br>
+
+<a href="../index.php"> 
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+    <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+</svg>
+</a>
+<h1>Chinua Achebe</h1>
+<br></br>
+
+<div class="float-container">
+
+    <div class="float-child-1">
+    
+    <img src="images/ChinuaAchebe.jpg" alt="An image of ChinuaAchebe">
+<h2>Biography</h2>
+    <p>
+    <br>
+    <a href="https://en.wikipedia.org/wiki/Chinua_Achebe ">Wikipedia</a>
+    <br>
+    Chinua Achebe (16 November 1930 – 21 March 2013) was a Nigerian novelist, poet, and critic who is regarded as the dominant figure of modern African literature. His first novel and magnum opus, Things Fall Apart (1958), occupies a pivotal place in African literature and remains the most widely studied, translated and read African novel. Along with Things Fall Apart, 
+    his No Longer at Ease (1960) and Arrow of God (1964) complete the so-called "African Trilogy"; later novels include A Man of the People (1966) and Anthills of the Savannah (1987). 
+    He is often referred to as the "father of African literature", although he vigorously rejected the characterization.Born in Ogidi, British Nigeria, Achebe's childhood was influenced 
+    by both Igbo traditional culture and postcolonial Christianity. He excelled in school and attended what is now the University of Ibadan, where he became fiercely critical of how 
+    European literature depicted Africa. Moving to Lagos after graduation, he worked for the Nigerian Broadcasting Service (NBS) and garnered international attention for his 1958 novel 
+    Things Fall Apart. In less than 10 years he would publish four further novels through the publisher Heinemann, with whom he began the Heinemann African Writers Series and galvanized 
+    the careers of African writers, such as Ngũgĩ wa Thiong'o and Flora Nwapa. Achebe sought to escape the colonial perspective that framed African literature at the time, and drew from 
+    the traditions of the Igbo people, Christian influences, and the clash of Western and African values to create a uniquely African voice. He wrote in and defended the use of English,
+    describing it as a means to reach a broad audience, particularly readers of colonial nations. In 1975 he gave a controversial lecture, "An Image of Africa: Racism in Conrad's Heart of
+    Darkness", which was a landmark in postcolonial discourse. Published in The Massachusetts Review, it featured criticism of Albert Schweitzer and Joseph Conrad, whom Achebe described
+    as "a thoroughgoing racist." When the region of Biafra broke away from Nigeria in 1967, Achebe supported Biafran independence and acted as ambassador for the people of the new nation.
+    The subsequent Nigerian Civil War ravaged the populace, and he appealed to the people of Europe and the Americas for aid. When the Nigerian government retook the region in 1970, 
+    he involved himself in political parties but soon became disillusioned by his frustration over the continuous corruption and elitism he witnessed. He lived in the United States 
+    for several years in the 1970s, and returned to the US in 1990 after a car crash left him partially disabled. He stayed in the US in a nineteen-year tenure at Bard College as a 
+    professor of languages and literature. Winning the 2007 Man Booker International Prize, from 2009 until his death he was Professor of African Studies at Brown University.Achebe's 
+    work has been extensively analyzed and a vast body of scholarly work discussing it has arisen. In addition to his seminal novels, Achebe's oeuvre includes numerous short stories, 
+    poetry, essays and children's books. His style relies heavily on the Igbo oral tradition, and combines straightforward narration with representations of folk stories, proverbs, 
+    and oratory. Among the many themes his works cover are culture and colonialism, masculinity and femininity, politics, and history. His legacy is celebrated annually at the Chinua 
+    Achebe Literary Festival.
+    </p>
+<br></br>
+    </div>
+<div class="float-child-2">   
+<h2>The Works of Chinua Achebe</h2>
+   <br></br>
+   <br></br>
+   <table>
+        <tr><td>
+        <?php 
+        $title1 = "Girls at War";
+        $title2 = "Things Fall Apart";
+        $title3 = "No Longer at Ease";
+        $title4 = "A Man of the People";
+        $title5 = "Home and Exile";
+
+        echo $title1 ?>
+        <img src="books/GirlsAtWar.jpg" alt="An image of a book">
+        <td>
+        <?php  echo $title2 ?>
+        <img src="books/ThingsFallApart.jpg" alt="An image of a book">
+        </td></tr>
+       
+        <tr><td><?php  echo $title3 ?>    
+        <img src="books/NoLongerAtEase.jpg" alt="An image of a book">
+       
+        <td>
+       <?php  echo $title4 ?>
+        <img src="books/AManOfThePeople.jpg" alt="An image of a book">
+        </td></tr>
+        
+        <tr><td><?php  echo $title5 ?>
+        <img src="books/HomeAndExile.jpg" alt="An image of a book">
+        </td></tr>
+        </tr>
+    </table>
+
+<br></br>
+<br></br>
+<br></br>
+
+
+    </div>
+
+</div>
+</body>
+</html>
